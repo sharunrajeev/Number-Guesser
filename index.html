@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NumGuesser</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>NumGuess</h1>
+    <h3>Guess a number between 1 to 10</h3>
+    <input 
+        id="numberInput"
+        type="number" 
+        name="number"
+        placeholder="Enter your number"
+        autocomplete="off"
+        onfocus="clearResult()"
+    >
+    <div class="input-group">
+        <button id="inputButton" type="submit" onclick="handleClick()">Guess</button>
+        <h3 id="result"></h3>
+    </div>
+    <footer>
+        <h4>Created by Sharun</h4>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>

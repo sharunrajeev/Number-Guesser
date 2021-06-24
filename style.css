@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Roboto:wght@700&display=swap');
+
+html {
+    background-color: #ffffff;
+    background-image: url("\'64fae407.png\'");
+}
+
+body {
+    text-align: center;
+}
+
+h1 {
+    color: #3F72AF;
+    font-size: 100px;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 1px 2px 3px gray;
+}
+
+h1:hover {
+    transform: scale(105%);
+}
+
+h3 {
+    color: #112D4E;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+h5 {
+    color: #112D4E;
+}
+
+input {
+    padding: 15px;
+    border: none;
+    width: 800px;
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-size: 25px;
+    text-align: center;
+    box-shadow: 0 1px 1px 1px rgb(160, 160, 160);
+}
+
+input::placeholder {
+    text-align: center;
+    font-size: 25px;
+}
+
+button {
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+    font-size: 25px;
+    color: #ffffff;
+    background-color: #3F72AF;
+    box-shadow: 0 1px 2px 0px #112D4E;
+}
+
+.input-group {
+    text-align: center;
+}
+
+footer {
+    padding: 10px;
+    opacity: 80%;
+    font-family: roboto;
+    font-size: 15px;
+    font-weight: 100;
+    color: #74777e;
+}
